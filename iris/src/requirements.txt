@@ -5,12 +5,12 @@ flask
 numpy
 Flask-Cors
 tensorflow
-sklearn
+scikit-learn
 JayDeBeApi
 IPython
 dash
 dash-daq
 dash-bootstrap-components
 markdown
-JayDeBeApi
 pdfkit
+python-dateutil

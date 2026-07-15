@@ -1,9 +1,11 @@
-    Do $SYSTEM.OBJ.Load("/opt/irisapp/Installer.cls", "ck")
+    Do $SYSTEM.OBJ.Load("/opt/irisapp/src/App/Installer.cls", "ck")
     Do ##class(App.Installer).setup()
-    
+
     zn "IRISAPP"
     Do EnableDeepSee^%SYS.cspServer("/csp/irisapp/")
     zpm "load /opt/irisapp/ -v -Dfolder=irisapp"
+    Do ##class(App.Installer).BuildCubes()
+    Do ##class(App.Installer).SetupDSWAddons()
 
     zn "%SYS"
     Do ##class(Security.Users).UnExpireUserPasswords("*")

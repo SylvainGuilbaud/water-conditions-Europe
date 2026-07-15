@@ -19,10 +19,16 @@
     </control>
   </widget>
   <widget name="MeanPollution" type="meter" subtype="textMeter" subtypeClass="" title="" dataSource="dc/teccod/pivots/MeanPollution.pivot" dataLink="" drillDownDataSource="" width="200" height="200" sidebarContent="" showSidebar="false" sidebarWidth="" maximized="false" homeRowL="4" homeColL="0" colSpanL="4" rowSpanL="4" showToolbar="true" showToolbarBottomBorder="true" showToolbarOnlyWhenMaximized="false" colorToolbar="#F0F0F0" opacityToolbar="1" backgroundColor="#F0F0F0" opacity="1" theme="" dataColorList="">
+    <dataProperty name="" label="$auto" dataValue="resultMeanValue" display="" align="" format="" summary="" summaryValue="" showAs="" style="" thresholdLower="" thresholdUpper="" rangeLower="" rangeUpper="" baseValue="" targetValue="" valueColumn="" width="" subtype="" override="">
+    </dataProperty>
   </widget>
   <widget name="MeanOutsideInfluence" type="meter" subtype="textMeter" subtypeClass="" title="" dataSource="dc/teccod/pivots/MeanOutsideInfluence.pivot" dataLink="" drillDownDataSource="" width="200" height="200" sidebarContent="" showSidebar="false" sidebarWidth="" maximized="false" homeRowL="5" homeColL="0" colSpanL="4" rowSpanL="4" showToolbar="true" showToolbarBottomBorder="true" showToolbarOnlyWhenMaximized="false" colorToolbar="#F0F0F0" opacityToolbar="1" backgroundColor="#F0F0F0" opacity="1" theme="" dataColorList="">
+    <dataProperty name="" label="$auto" dataValue="droughtsfloodstemperature" display="" align="" format="" summary="" summaryValue="" showAs="" style="" thresholdLower="" thresholdUpper="" rangeLower="" rangeUpper="" baseValue="" targetValue="" valueColumn="" width="" subtype="" override="">
+    </dataProperty>
   </widget>
   <widget name="VenueCount" type="meter" subtype="textMeter" subtypeClass="" title="" dataSource="dc/teccod/pivots/VenueCount.pivot" dataLink="" drillDownDataSource="" width="200" height="200" sidebarContent="" showSidebar="false" sidebarWidth="" maximized="false" homeRowL="6" homeColL="0" colSpanL="4" rowSpanL="4" showToolbar="true" showToolbarBottomBorder="true" showToolbarOnlyWhenMaximized="false" colorToolbar="#F0F0F0" opacityToolbar="1" backgroundColor="#F0F0F0" opacity="1" theme="" dataColorList="">
+    <dataProperty name="" label="$auto" dataValue="VenueCount" display="" align="" format="" summary="" summaryValue="" showAs="" style="" thresholdLower="" thresholdUpper="" rangeLower="" rangeUpper="" baseValue="" targetValue="" valueColumn="" width="" subtype="" override="">
+    </dataProperty>
   </widget>
   <widget name="Table" type="pivot" subtype="pivot" subtypeClass="lineChart" title="" dataSource="dc/teccod/pivots/UomTable.pivot" dataLink="" drillDownDataSource="" width="200" height="200" sidebarContent="" showSidebar="false" sidebarWidth="" maximized="false" homeRowL="4" homeColL="4" colSpanL="4" rowSpanL="4" showToolbar="true" showToolbarBottomBorder="true" showToolbarOnlyWhenMaximized="false" colorToolbar="#F0F0F0" opacityToolbar="1" backgroundColor="#F0F0F0" opacity="1" theme="" dataColorList="">
   </widget>

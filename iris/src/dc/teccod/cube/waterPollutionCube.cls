@@ -11,8 +11,6 @@ XData Cube [ XMLNamespace = "http://www.intersystems.com/deepsee" ]
       <level name="Country" disabled="false" sourceProperty="Country" list="false" useDisplayValue="true" useAsFilter="true" hidden="false" factNumber="2">
         <property name="CountryRegion" disabled="false" sourceExpression="%source.Country" hidden="false" isName="false" isDescription="false" isReference="false" useDisplayValue="false">
         </property>
-        <property name="Uom" displayName="Uom" disabled="false" sourceExpression="%source.idwaterresultuom.Label" hidden="false" isName="false" isDescription="false" isReference="false" useDisplayValue="false">
-        </property>
       </level>
       <level name="WaterBody_Name" displayName="WaterBody_Name" disabled="false" sourceProperty="idwatername.Label" list="false" useDisplayValue="true" useAsFilter="true" hidden="false" factNumber="5">
       </level>

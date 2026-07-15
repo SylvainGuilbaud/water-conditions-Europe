@@ -1,0 +1,5 @@
+zn "IRISAPP"
+Set sc = ##class(MDX2JSON.Dashboard).GetMdx("dc/teccod/pivots/MeanPollution.pivot", .mdx, .basemdx)
+Write "MDX: ", mdx, !
+Write "BaseMDX: ", basemdx, !
+Halt
