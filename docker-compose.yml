@@ -5,6 +5,8 @@ services:
       context: ./iris
       dockerfile: Dockerfile
     restart: always
+    container_name: water-conditions-europe
+    hostname: water-conditions-europe
     command: --check-caps false -a "sh /opt/irisapp/server_start.sh"
     ports: 
       - 1972
