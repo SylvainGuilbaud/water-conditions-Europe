@@ -16,25 +16,25 @@ services:
       - ./iris/:/irisdev/app
       - ./iris/src:/opt/irisapp/src
 
-  atscale:
-    image: docker.io/alex4vk/atscale-server:2021.3.0.3934
-    restart: always
-    tty: true
-    hostname: atscale
-    volumes:
-      - data:/opt/atscale/data
-      - conf:/opt/atscale/conf
-      - log:/opt/atscale/log
-      - ./atscale-server/atscale.yaml:/root/atscale.yaml
-      - ./atscale-server/src/connections:/root/connections
-      - ./atscale-server/src/cubes:/root/cubes
-      - ./atscale-server/src/license:/root/license
-    ports:
-      - 10500:10500
-      - 10502:10502
-      - 10503:10503
-      - 10525:10525
-      - 11111:11111
+  # atscale:
+  #   image: docker.io/alex4vk/atscale-server:2021.3.0.3934
+  #   restart: always
+  #   tty: true
+  #   hostname: atscale
+  #   volumes:
+  #     - data:/opt/atscale/data
+  #     - conf:/opt/atscale/conf
+  #     - log:/opt/atscale/log
+  #     - ./atscale-server/atscale.yaml:/root/atscale.yaml
+  #     - ./atscale-server/src/connections:/root/connections
+  #     - ./atscale-server/src/cubes:/root/cubes
+  #     - ./atscale-server/src/license:/root/license
+  #   ports:
+  #     - 10500:10500
+  #     - 10502:10502
+  #     - 10503:10503
+  #     - 10525:10525
+  #     - 11111:11111
 volumes:
   data:
   conf:
